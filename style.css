@@ -1,0 +1,41 @@
+header {
+    background-color: #0b1c51;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 15px;
+}
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+    header {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 52px;
+    }
+    #menu {
+        padding-left: 0;
+    }
+}
